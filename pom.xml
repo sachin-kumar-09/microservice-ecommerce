@@ -13,6 +13,7 @@
     <modules>
         <module>commonlib</module>
         <module>configserver</module>
+        <module>discoveryserver</module>
     </modules>
 
     <properties>
