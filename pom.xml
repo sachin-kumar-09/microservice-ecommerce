@@ -14,6 +14,7 @@
         <module>commonlib</module>
         <module>configserver</module>
         <module>discoveryserver</module>
+        <module>apigateway</module>
     </modules>
 
     <properties>
