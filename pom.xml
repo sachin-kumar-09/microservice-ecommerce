@@ -15,6 +15,7 @@
         <module>configserver</module>
         <module>discoveryserver</module>
         <module>apigateway</module>
+        <module>authservice</module>
     </modules>
 
     <properties>

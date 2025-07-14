@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="apigateway" />
         <module name="discoveryserver" />
         <module name="configserver" />
+        <module name="authservice" />
       </profile>
       <profile name="Annotation profile for ecommerceplatform" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -25,6 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apigateway" options="" />
+      <module name="authservice" options="" />
       <module name="configserver" options="" />
       <module name="discoveryserver" options="" />
     </option>
